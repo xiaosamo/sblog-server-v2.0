@@ -6,15 +6,30 @@
     <parent>
         <groupId>com.sblog</groupId>
         <artifactId>sblog</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+<!--        <version>0.0.1-SNAPSHOT</version>-->
     </parent>
 
     <artifactId>sblog-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+<!--    <version>${sblog-api-version}</version>-->
+
     <name>sblog-api</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
+        
+
+        <dependency>
+            <groupId>com.sblog</groupId>
+            <artifactId>sblog-dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sblog</groupId>
+            <artifactId>sblog-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <build>
