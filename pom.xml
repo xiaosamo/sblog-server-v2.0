@@ -31,6 +31,7 @@
         <lombok-version>1.18.8</lombok-version>
         <dubbo-version>2.7.1</dubbo-version>
         <dubbo-spring-boot-starter-version>2.7.1</dubbo-spring-boot-starter-version>
+        <mysql-version>8.0.16</mysql-version>
     </properties>
 
     <dependencies>
@@ -72,11 +73,12 @@
 <!--            <version>2.0.1</version>-->
 <!--        </dependency>-->
         <!-- mysql -->
-<!--        <dependency>-->
-<!--            <groupId>mysql</groupId>-->
-<!--            <artifactId>mysql-connector-java</artifactId>-->
-<!--            <scope>runtime</scope>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+            <version>${mysql-version}</version>
+        </dependency>
 
         <!-- dubbo -->
         <dependency>
