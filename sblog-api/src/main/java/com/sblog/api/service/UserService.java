@@ -1,7 +1,5 @@
 package com.sblog.api.service;
 
-import com.sblog.common.dto.Response;
-import com.sblog.common.request.UserBody;
 import com.sblog.dao.entity.User;
 
 /**
@@ -18,14 +16,14 @@ public interface UserService {
      * @param rememberMe
      * @return
      */
-    Response login(String username, String password, Boolean rememberMe);
+    boolean login(String username, String password, Boolean rememberMe);
 
     /**
      * 注册
      * @param userBody
      * @return
      */
-    Response register(UserBody userBody);
+//    boolean register(UserBody userBody);
 
 
     /**
@@ -33,14 +31,14 @@ public interface UserService {
      * @param username
      * @return
      */
-    Response validUsername(String username);
+    boolean validUsername(String username);
 
     /**
      * 验证邮箱是否存在
      * @param email
      * @return
      */
-    Response validEmail( String email);
+    boolean validEmail( String email);
 
 
     /**
@@ -57,6 +55,6 @@ public interface UserService {
     /**
      * 更新用户信息
      */
-    Response updateUser(User user);
+    boolean updateUser(User user);
 
 }

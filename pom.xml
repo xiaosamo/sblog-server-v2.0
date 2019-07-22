@@ -43,15 +43,15 @@
     </properties>
 
 
-    <dependencyManagement>
+<!--    <dependencyManagement>-->
         <dependencies>
 
 <!--            自身依赖-->
-            <dependency>
-                <groupId>com.sblog</groupId>
-                <artifactId>sblog-api</artifactId>
-                <version>${sblog-api-version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.sblog</groupId>-->
+<!--                <artifactId>sblog-api</artifactId>-->
+<!--                <version>${sblog-api-version}</version>-->
+<!--            </dependency>-->
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -136,6 +136,20 @@
                 <version>${hutool-version}</version>
             </dependency>
 
+            <!-- hanlp汉语言处理包 -->
+            <dependency>
+                <groupId>com.hankcs</groupId>
+                <artifactId>hanlp</artifactId>
+                <version>portable-1.7.4</version>
+            </dependency>
+
+<!--            mybatis-plus -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>3.1.2</version>
+            </dependency>
+
 
             <!-- https://mvnrepository.com/artifact/org.crazycake/shiro-redis -->
             <!--        <dependency>-->
@@ -148,7 +162,7 @@
 
         </dependencies>
 
-    </dependencyManagement>
+<!--    </dependencyManagement>-->
 
 
     <!--该插件作用是打一个可运行的包，必须要写在需要打包的项目里。这里的父模块不需要打包运行，所以删掉该插件。-->

@@ -18,7 +18,7 @@
 
         <dependency>
             <groupId>com.sblog</groupId>
-            <artifactId>sblog-api</artifactId>
+            <artifactId>sblog-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         
