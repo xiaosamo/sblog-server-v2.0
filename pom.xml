@@ -35,7 +35,7 @@
         <spring-boot-version>2.1.6.RELEASE</spring-boot-version>
         <mybatis-spring-boot-starter-version>2.0.1</mybatis-spring-boot-starter-version>
         <commons-version>3.9</commons-version>
-        <shiro-version>1.4.1</shiro-version>
+        <shiro-version>1.7.0</shiro-version>
         <hutool-version>4.5.12</hutool-version>
 
         <sblog-api-version>0.0.1-SNAPSHOT</sblog-api-version>
