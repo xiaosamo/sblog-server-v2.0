@@ -32,7 +32,7 @@
         <dubbo-version>2.7.1</dubbo-version>
         <dubbo-spring-boot-starter-version>2.7.1</dubbo-spring-boot-starter-version>
         <mysql-version>8.0.16</mysql-version>
-        <spring-boot-version>2.1.6.RELEASE</spring-boot-version>
+        <spring-boot-version>2.5.12</spring-boot-version>
         <mybatis-spring-boot-starter-version>2.0.1</mybatis-spring-boot-starter-version>
         <commons-version>3.9</commons-version>
         <shiro-version>1.4.1</shiro-version>
